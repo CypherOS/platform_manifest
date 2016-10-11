@@ -11,8 +11,13 @@
            review="review.cyanogenmod.org"
            revision="refs/heads/cm-14.0" />
 
-  <default revision="refs/heads/n7.0"
-           remote="cypher"
+  <remote  name="cypher"
+           fetch="https://github.com/CypherOS"
+           review="gerrit.cypheros.co"
+           revision="refs/heads/n7.0"
+           />
+
+  <default remote="cypher"
            sync-c="true"
            sync-j="4" />
 
