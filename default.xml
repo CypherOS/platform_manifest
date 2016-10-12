@@ -11,6 +11,9 @@
            review="review.cyanogenmod.org"
            revision="refs/heads/cm-14.0" />
 
+  <remote  name="github"
+           fetch="https://github.com/" />
+
   <remote  name="cypher"
            fetch="https://github.com/CypherOS"
            review="gerrit.cypheros.co"
