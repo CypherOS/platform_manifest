@@ -38,7 +38,7 @@
   <project path="vendor/aoscp" name="vendor_aoscp" remote="cypher" />
   <project path="vendor/cmsdk" name="vendor_cmsdk" remote="cypher" />
   <project path="system/tools/aidl" name="system_tools_aidl" remote="cypher" />
-  <project path="prebuilts/cmsdk" remote="cypher" name="prebuilts_cmsdk" />
+  <project path="prebuilts/cmsdk" name="prebuilts_cmsdk" remote="cypher" />
   <!-- End CypherOS -->
 
   <!-- AOSP Projects -->
