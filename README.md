@@ -31,6 +31,6 @@ You can also build for specific devices (eg. hammerhead) like this:
 
     . build/envsetup.sh
     lunch cypher_hammerhead-userdebug
-    mka rainbowfarts
+    mka pizza
 
 Remember to `make clobber && make clean` every now and then!
