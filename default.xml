@@ -10,6 +10,12 @@
            fetch="https://github.com/CyanogenMod"
            review="review.cyanogenmod.org"
            revision="refs/heads/cm-14.0" />
+		   
+  <remote  name="aicp"
+           fetch="https://github.com/AICP"
+           review="gerrit.aicp-rom.com"
+           revision="refs/heads/n7.0"
+           />
 
   <remote  name="github"
            fetch="https://github.com/" />
