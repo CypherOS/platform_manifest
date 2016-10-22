@@ -25,12 +25,15 @@ Building
 After the sync is finished, please read the [instructions from the Android site](http://s.android.com/source/building.html) on how to build.
 
     . build/envsetup.sh
-    lunch
+    
+    brunch
+    
+    Pick your device by typing it's number followed by enter
 
 You can also build for specific devices (eg. hammerhead) like this:
 
     . build/envsetup.sh
-    lunch cypher_hammerhead-userdebug
+    brunch aoscp_bullhead-userdebug
     mka pizza
 
 Remember to `make clobber && make clean` every now and then!
