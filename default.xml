@@ -36,6 +36,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="cypher" />
+  <project path="external/DUtils" name="external_DUtils" remote="cypher" />
   <project path="external/mksh" name="external_mksh" groups="pdk" remote="cypher" />
   <project path="frameworks/base" name="frameworks_base" remote="cypher" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cypher" groups="pdk-fs" />
