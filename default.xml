@@ -52,7 +52,7 @@
   <project path="packages/apps/Gourme" name="packages_apps_Gourme" remote="cypher" />
   <project path="packages/apps/Luna" name="packages_apps_Luna" groups="pdk-fs" remote="cypher" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="cypher" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="cypher" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
   <project path="prebuilts/cmsdk" name="prebuilts_cmsdk" remote="cypher" />
   <!-- End CypherOS -->
 
