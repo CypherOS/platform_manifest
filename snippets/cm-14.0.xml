@@ -44,7 +44,6 @@
   <project path="packages/apps/Eleven" remote="cm" name="android_packages_apps_Eleven" />
   <project path="packages/apps/Exchange" remote="cm" name="android_packages_apps_Exchange" />
   <project path="packages/apps/ThemeChooser" remote="cm" name="android_packages_apps_ThemeChooser" />
-  <project path="packages/apps/WallpaperPicker" remote="cm" name="android_packages_apps_WallpaperPicker" />
   <project path="packages/providers/ThemesProvider" remote="cm" name="android_packages_providers_ThemesProvider" />
   <project path="packages/services/CMAudioService" remote="cm" name="android_packages_services_CMAudioService" />
   <project path="packages/services/ThemeManagerService" remote="cm" name="android_packages_services_ThemeManagerService" />
