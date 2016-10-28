@@ -60,10 +60,10 @@
   <project path="external/json-c" remote="cm" name="android_external_json-c" />
   <project path="external/libnetfilter_conntrack" remote="cm" name="android_external_libnetfilter_conntrack" />
   <project path="external/libnfnetlink" remote="cm" name="android_external_libnfnetlink" />
-  <project path="external/mm-dash" remote="cm" name="android_external_mm-dash" />
+  <project path="external/mm-dash" remote="cm" name="android_external_mm-dash" revision="cm-14.0" />
   <project path="external/powertop" remote="cm" name="android_external_powertop" />
   <project path="external/protobuf-c" remote="cm" name="android_external_protobuf-c" />
   <project path="system/qcom" remote="cm" name="android_system_qcom" groups="qcom" />
   <project path="vendor/codeaurora/telephony" remote="cm" name="android_vendor_codeaurora_telephony" />
-  <project path="vendor/qcom/opensource/bluetooth" remote="cm" name="android_packages_apps_BluetoothExt" />
+  <project path="vendor/qcom/opensource/bluetooth" remote="cm" name="android_vendor_qcom_opensource_bluetooth" />
 </manifest>
