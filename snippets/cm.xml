@@ -14,7 +14,6 @@
   <project path="external/fuse" remote="cm" name="android_external_fuse" />
   <project path="external/google" remote="cm" name="android_external_google" />
   <project path="external/htop" remote="cm" name="android_external_htop" />
-  <project path="external/koush/AndroidAsync" remote="cm" name="AndroidAsync" />
   <project path="external/koush/ion" remote="cm" name="ion" />
   <project path="external/libncurses" remote="cm" name="android_external_libncurses" />
   <project path="external/libphonenumbergoogle" remote="cm" name="android_external_libphonenumbergoogle" />
