@@ -38,7 +38,6 @@
   <project path="hardware/ti/omap4" remote="cm" name="android_hardware_ti_omap4" />
   <project path="hardware/ti/wlan" remote="cm" name="android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" remote="cm" name="android_hardware_ti_wpan" />
-  <project path="packages/apps/Browser" remote="cm" name="android_packages_apps_Browser" />
   <project path="packages/apps/CMFileManager" remote="cm" name="android_packages_apps_CMFileManager" />
   <project path="packages/apps/Eleven" remote="cm" name="android_packages_apps_Eleven" />
   <project path="packages/apps/Exchange" remote="cm" name="android_packages_apps_Exchange" />
