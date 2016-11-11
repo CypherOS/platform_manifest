@@ -48,6 +48,7 @@
   <project path="vendor/aoscp" name="vendor_aoscp" remote="cypher" />
   <project path="vendor/cmsdk" name="vendor_parto_cmsdk" remote="cypher" />
   <project path="system/tools/aidl" name="system_tools_aidl" remote="cypher" />
+  <project path="packages/apps/Camero" name="packages_apps_Camero" remote="cypher" />
   <project path="packages/apps/COTA" name="packages_apps_COTA" remote="cypher" />
   <project path="packages/apps/Luna" name="packages_apps_Luna" groups="pdk-fs" remote="cypher" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="cypher" />
