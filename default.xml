@@ -14,7 +14,7 @@
   <remote  name="tm"
            fetch="https://github.com/TheMuppets"
            revision="refs/heads/cm-14.1" />
-		   
+
   <remote  name="aicp"
            fetch="https://github.com/AICP"
            review="gerrit.aicp-rom.com"
@@ -53,7 +53,7 @@
   <project path="packages/apps/Luna" name="packages_apps_Luna" groups="pdk-fs" remote="cypher" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="cypher" />
   <project path="packages/apps/Crumbs" name="packages_apps_Crumbs" remote="cypher" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aicp" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="cypher" />
   <project path="prebuilts/cmsdk" name="prebuilts_cmsdk" remote="cypher" />
   <!-- End CypherOS -->
 
