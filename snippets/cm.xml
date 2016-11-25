@@ -34,7 +34,6 @@
   <project path="external/yaffs2" remote="cm" name="android_external_yaffs2" />
   <project path="external/zip" remote="cm" name="android_external_zip" />
   <project path="hardware/cyanogen" remote="cm" name="android_hardware_cyanogen" />
-  <project path="frameworks/opt/hardware" remote="cm" name="android_frameworks_opt_hardware" />
   <project path="hardware/ti/omap4" remote="cm" name="android_hardware_ti_omap4" />
   <project path="hardware/ti/wlan" remote="cm" name="android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" remote="cm" name="android_hardware_ti_wpan" />
