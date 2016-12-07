@@ -24,7 +24,7 @@
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="aoscp" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
-  <project path="prebuilts/parto/sdk" name="prebuilts_parto_sdk" remote="aoscp" />
+  <project path="prebuilts/cmsdk" name="prebuilts_cmsdk" remote="aoscp" />
   <project path="system/core" name="system_core" groups="pdk" remote="aoscp" />
   <project path="system/qcom" name="system_qcom" groups="qcom" remote="aoscp" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="aoscp" />
