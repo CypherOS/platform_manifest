@@ -30,7 +30,7 @@
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="aoscp" />
   <project path="system/tools/aidl" name="system_tools_aidl" remote="aoscp" />
   <project path="vendor/aoscp" name="vendor_aoscp" remote="aoscp" />
-  <project path="vendor/sdk" name="vendor_parto_sdk" remote="aoscp" />
+  <project path="vendor/cmsdk" name="vendor_parto_sdk" remote="aoscp" />
 
   <!-- Qualcomm HAL Packages -->
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="aoscp" />
