@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest> 
+
+  <!-- CypherOS Core Packages -->
+  <project path="platform_manifest" name="platform_manifest" remote="aoscp" />
+  <project path="build" name="build" groups="pdk" remote="aoscp" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aoscp" />
+  <project path="external/mksh" name="external_mksh" groups="pdk" remote="aoscp" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="aoscp" />
+  <project path="frameworks/base" name="frameworks_base" remote="aoscp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="aoscp" />
+  <project path="frameworks/opt/hardware" name="frameworks_opt_hardware"  remote="aoscp" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="aoscp" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="aoscp" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="aoscp" />
+  <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
+  <project path="hardware/aoscp" name="hardware_cygn_aoscp" remote="aoscp" />
+  <project path="packages/apps/Camero" name="packages_apps_Camero" remote="aoscp" revision="n7.1" />
+  <project path="packages/apps/COTA" name="packages_apps_COTA" remote="aoscp" />
+  <project path="packages/apps/Arboretum" name="packages_apps_Arboretum" remote="aoscp" />
+  <project path="packages/apps/Luna" name="packages_apps_Luna" groups="pdk-fs" remote="aoscp" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="aoscp" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="aoscp" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
+  <project path="prebuilts/sdk" name="prebuilts_parto_sdk" remote="aoscp" />
+  <project path="system/core" name="system_core" groups="pdk" remote="aoscp" />
+  <project path="system/qcom" name="system_qcom" groups="qcom" remote="aoscp" />
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="aoscp" />
+  <project path="system/tools/aidl" name="system_tools_aidl" remote="aoscp" />
+  <project path="vendor/aoscp" name="vendor_aoscp" remote="aoscp" />
+  <project path="vendor/sdk" name="vendor_parto_sdk" remote="aoscp" />
+
+  <!-- Qualcomm HAL Packages -->
+  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="aoscp" />
+  <project path="hardware/qcom/audio-caf/apq8084" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="n7.1-caf-8084" remote="aoscp" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="n7.1-caf-8916" remote="aoscp" />
+  <project path="hardware/qcom/audio-caf/msm8937" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="n7.1-caf-8937" remote="aoscp" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="n7.1-caf-8952" remote="aoscp" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="n7.1-caf-8960" remote="aoscp" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="n7.1-caf-8974" remote="aoscp" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="n7.1-caf-8994" remote="aoscp" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="n7.1-caf-8996" remote="aoscp" />
+  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" groups="pdk" remote="aoscp" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="aoscp" />
+  <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom" revision="n7.1-caf" remote="aoscp" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom" remote="aoscp" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="aoscp" />
+  <project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="n7.1-caf-8084" remote="aoscp" />
+  <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="n7.1-caf-8916" remote="aoscp" />
+  <project path="hardware/qcom/display-caf/msm8937" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="n7.1-caf-8937" remote="aoscp" />
+  <project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="n7.1-caf-8952" remote="aoscp" />
+  <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="n7.1-caf-8960" remote="aoscp" />
+  <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="n7.1-caf-8974" remote="aoscp" />
+  <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="n7.1-caf-8994" remote="aoscp" />
+  <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="n7.1-caf-8996" remote="aoscp" />
+  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="aoscp" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="aoscp" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="aoscp" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom" remote="aoscp" />
+  <project path="hardware/qcom/media-caf/apq8084" name="android_hardware_qcom_media" groups="qcom" revision="n7.1-caf-8084" remote="aoscp" />
+  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom" revision="n7.1-caf-8916" remote="aoscp" />
+  <project path="hardware/qcom/media-caf/msm8937" name="android_hardware_qcom_media" groups="qcom" revision="n7.1-caf-8937" remote="aoscp" />
+  <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" groups="qcom" revision="n7.1-caf-8952" remote="aoscp" />
+  <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom" revision="n7.1-caf-8960" remote="aoscp" />
+  <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom" revision="n7.1-caf-8974" remote="aoscp" />
+  <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom" revision="n7.1-caf-8994" remote="aoscp" />
+  <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom" revision="n7.1-caf-8996" remote="aoscp" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="aoscp" />
+  <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan" revision="n7.1-caf" remote="aoscp" />
+  <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="aoscp" />
+  <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" revision="n7.1-caf" remote="aoscp" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="aoscp" />
+  <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="aoscp" />
+  <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" remote="aoscp" />
+  <project path="vendor/qcom/opensource/bluetooth" name="android_vendor_qcom_opensource_bluetooth" remote="aoscp" />
+  
+  <!-- CodeAurora additions -->
+  <project path="external/ahbottomnavigation" remote="cm" name="android_external_ahbottomnavigation" />
+  <project path="external/android-visualizer" remote="cm" name="android_external_android-visualizer" />
+  <project path="external/ant-wireless/ant_native" remote="cm" name="android_external_ant-wireless_ant_native" />
+  <project path="external/ant-wireless/ant_service" remote="cm" name="android_external_ant-wireless_ant_service" />
+  <project path="external/ant-wireless/antradio-library" remote="cm" name="android_external_ant-wireless_antradio-library" />
+  <project path="external/bash" remote="cm" name="android_external_bash" />
+  <project path="external/brctl" remote="cm" name="android_external_brctl" />
+  <project path="external/cmsdk-api-coverage" remote="cm" name="android_external_cmsdk-api-coverage" />
+  <project path="external/connectivity" remote="cm" name="android_external_connectivity" />
+  <project path="external/ebtables" remote="cm" name="android_external_ebtables" />
+  <project path="external/exfat" remote="cm" name="android_external_exfat" />
+  <project path="external/ffmpeg" remote="cm" name="android_external_ffmpeg" />
+  <project path="external/fuse" remote="cm" name="android_external_fuse" />
+  <project path="external/google" remote="cm" name="android_external_google" />
+  <project path="external/gson" remote="cm" name="android_external_gson" />
+  <project path="external/htop" remote="cm" name="android_external_htop" />
+  <project path="external/json-c" remote="cm" name="android_external_json-c" />
+  <project path="external/koush/ion" remote="cm" name="ion" />
+  <project path="external/libncurses" remote="cm" name="android_external_libncurses" />
+  <project path="external/libnetfilter_conntrack" remote="cm" name="android_external_libnetfilter_conntrack" />
+  <project path="external/libnfnetlink" remote="cm" name="android_external_libnfnetlink" />
+  <project path="external/libphonenumbergoogle" remote="cm" name="android_external_libphonenumbergoogle" />
+  <project path="external/libtar" remote="cm" name="android_external_libtar" />
+  <project path="external/libtruezip" remote="cm" name="android_external_libtruezip" />
+  <project path="external/lzo" remote="cm" name="android_external_lzo" />
+  <project path="external/mm-dash" remote="cm" name="android_external_mm-dash" revision="cm-14.0" />
+  <project path="external/nano" remote="cm" name="android_external_nano" />
+  <project path="external/ntfs-3g" remote="cm" name="android_external_ntfs-3g" />
+  <project path="external/openssh" remote="cm" name="android_external_openssh" />
+  <project path="external/p7zip" remote="cm" name="android_external_p7zip" />
+  <project path="external/pigz" remote="cm" name="android_external_pigz" />
+  <project path="external/powertop" remote="cm" name="android_external_powertop" />
+  <project path="external/protobuf-c" remote="cm" name="android_external_protobuf-c" />
+  <project path="external/rsync" remote="cm" name="android_external_rsync" />
+  <project path="external/stagefright-plugins" remote="cm" name="android_external_stagefright-plugins" />
+  <project path="external/uicommon" remote="cm" name="android_external_cyanogen_UICommon" />
+  <project path="external/unrar" remote="cm" name="android_external_unrar" />
+  <project path="external/unzip" remote="cm" name="android_external_unzip" />
+  <project path="external/vim" remote="cm" name="android_external_vim" />
+  <project path="external/yaffs2" remote="cm" name="android_external_yaffs2" />
+  <project path="external/zip" remote="cm" name="android_external_zip" />
+  <project path="hardware/broadcom/libbt" remote="cm" name="hardware_broadcom_libbt" groups="pdk" />
+  <project path="hardware/broadcom/wlan" remote="cm" name="hardware_broadcom_wlan" groups="pdk,broadcom_wlan" />
+  <project path="hardware/ti/omap4" remote="cm" name="android_hardware_ti_omap4" />
+  <project path="hardware/ti/wlan" remote="cm" name="android_hardware_ti_wlan" />
+  <project path="hardware/ti/wpan" remote="cm" name="android_hardware_ti_wpan" />
+  <project path="packages/apps/Eleven" remote="cm" name="android_packages_apps_Eleven" />
+  <project path="packages/apps/Exchange" remote="cm" name="android_packages_apps_Exchange" />
+  <project path="packages/apps/FMRadio" remote="cm" name="android_packages_apps_FMRadio" />
+  <project path="packages/apps/ThemeChooser" remote="cm" name="android_packages_apps_ThemeChooser" />
+  <project path="packages/providers/ThemesProvider" remote="cm" name="android_packages_providers_ThemesProvider" />
+  <project path="packages/services/CMAudioService" remote="cm" name="android_packages_services_CMAudioService" />
+  <project path="packages/services/ThemeManagerService" remote="cm" name="android_packages_services_ThemeManagerService" />
+  <project path="system/extras/su" remote="cm" name="android_system_extras_su" />
+  <project path="vendor/codeaurora/telephony" remote="cm" name="android_vendor_codeaurora_telephony" />
+
+  
+</manifest>

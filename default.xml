@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-7.1.0_r7" />
+           revision="refs/tags/android-7.1.1_r4" />
 
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod"
@@ -24,40 +24,15 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <remote  name="cypher"
+  <remote  name="aoscp"
            fetch="https://github.com/CypherOS"
            review="gerrit.cypheros.co"
            revision="refs/heads/n7.1"
            />
 
-  <default remote="cypher"
+  <default remote="aoscp"
            sync-c="true"
            sync-j="4" />
-
-  <!-- Begin CypherOS -->
-  <project path="platform_manifest" name="platform_manifest" remote="cypher" />
-  <project path="build" name="build" groups="pdk" remote="cypher" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="cypher" />
-  <project path="external/mksh" name="external_mksh" groups="pdk" remote="cypher" />
-  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="cypher" />
-  <project path="frameworks/base" name="frameworks_base" remote="cypher" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="cypher" />
-  <project path="frameworks/opt/hardware" name="frameworks_opt_hardware"  remote="cypher" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cypher" groups="pdk-fs" />
-  <project path="system/core" name="system_core" groups="pdk" remote="cypher" />
-  <project path="vendor/aoscp" name="vendor_aoscp" remote="cypher" />
-  <project path="vendor/cmsdk" name="vendor_parto_cmsdk" remote="cypher" />
-  <project path="system/tools/aidl" name="system_tools_aidl" remote="cypher" />
-  <project path="packages/apps/Camero" name="packages_apps_Camero" remote="cypher" revision="n7.1" />
-  <project path="packages/apps/COTA" name="packages_apps_COTA" remote="cypher" />
-  <project path="packages/apps/Luna" name="packages_apps_Luna" groups="pdk-fs" remote="cypher" />
-  <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="cypher" />
-  <project path="packages/apps/Crumbs" name="packages_apps_Crumbs" remote="cypher" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="cypher" />
-  <project path="prebuilts/cmsdk" name="prebuilts_cmsdk" remote="cypher" />
-  <!-- End CypherOS -->
 
   <!-- AOSP Projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
@@ -351,23 +326,17 @@
   <project path="frameworks/opt/inputconnectioncommon" name="platform/frameworks/opt/inputconnectioncommon" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" remote="aosp" />
-  <project path="frameworks/opt/net/ims" remote="cm" name="android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/opt/net/wifi" remote="cm" name="android_frameworks_opt_net_wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/setupwizard" remote="cm" name="android_frameworks_opt_setupwizard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/telephony" remote="cm" name="android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/vcard" remote="cm" name="android_frameworks_opt_vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" remote="aosp" />
-  <project path="frameworks/support" remote="cm" name="android_frameworks_support" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="hardware/akm" name="platform/hardware/akm" remote="aosp" />
-  <project path="hardware/broadcom/libbt" remote="cm" name="android_hardware_broadcom_libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" remote="cm" name="android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/bsp/intel" name="platform/hardware/bsp/intel" remote="aosp" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" remote="aosp" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" remote="aosp" />
@@ -511,7 +480,6 @@
   <project path="system/netd" remote="cm" name="android_system_netd" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" remote="aosp" />
   <project path="system/security" remote="cm" name="android_system_security" groups="pdk" />
-  <project path="system/sepolicy" remote="cm" name="android_system_sepolicy" groups="pdk" />
   <project path="system/tpm" name="platform/system/tpm" remote="aosp" />
   <project path="system/update_engine" name="platform/system/update_engine" remote="aosp" />
   <project path="system/vold" remote="cm" name="android_system_vold" groups="pdk" />
@@ -531,5 +499,5 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
-  <include name="snippets/cm.xml" />
+  <include name="manifesto/aoscp.xml" />
 </manifest>
