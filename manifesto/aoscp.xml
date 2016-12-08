@@ -19,7 +19,7 @@
   <project path="hardware/aoscp" name="hardware_cygn_aoscp" remote="aoscp" />
   <project path="packages/apps/Camero" name="packages_apps_Camero" remote="aoscp" revision="n7.1" />
   <project path="packages/apps/COTA" name="packages_apps_COTA" remote="aoscp" />
-  <project path="packages/apps/Arboretum" name="packages_apps_Arboretum" remote="aoscp" />
+  <project path="packages/apps/Ember" name="packages_apps_Ember" remote="aoscp" />
   <project path="packages/apps/Luna" name="packages_apps_Luna" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="aoscp" />
