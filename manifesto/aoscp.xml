@@ -14,6 +14,7 @@
   <project path="development" name="development" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aoscp" />
   <project path="external/mksh" name="external_mksh" groups="pdk" remote="aoscp" />
+  <project path="external/aoscp/smartdialogs" name="external_aoscp_smartdialogs" remote="aoscp" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="aoscp" />
   <project path="frameworks/base" name="frameworks_base" remote="aoscp" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="aoscp" />
@@ -41,6 +42,7 @@
   <project path="packages/apps/Luna" name="packages_apps_Luna" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="aoscp" />
+  <project path="packages/apps/WallpaperPicker" name="packages_apps_WallpaperPicker" remote="aoscp" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="prebuilts/cmsdk" name="prebuilts_cmsdk" remote="aoscp" />
   <project path="system/bt" name="system_bt" groups="pdk" remote="aoscp" />
