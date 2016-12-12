@@ -6,6 +6,12 @@
   <project path="build" name="build" groups="pdk" remote="aoscp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="art" name="art" groups="pdk" remote="aoscp" />
+  <project path="bionic" name="bionic" groups="pdk" remote="aoscp" />
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="aoscp" />
+  <project path="build/kati" name="build_kati" groups="pdk,tradefed" remote="aoscp" />
+  <project path="dalvik" name="dalvik" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
+  <project path="development" name="development" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aoscp" />
   <project path="external/mksh" name="external_mksh" groups="pdk" remote="aoscp" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="aoscp" />
@@ -13,23 +19,39 @@
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="aoscp" />
   <project path="frameworks/opt/hardware" name="frameworks_opt_hardware"  remote="aoscp" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="aoscp" />
+  <project path="frameworks/opt/setupwizard" name="frameworks_opt_setupwizard" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="aoscp" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="aoscp" />
   <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="hardware/aoscp" name="hardware_cygn_aoscp" remote="aoscp" />
+  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" groups="pdk" remote="aoscp" />
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="aoscp" />
+  <project path="hardware/ti/omap4" name="hardware_ti_omap4" remote="aoscp" />
+  <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="aoscp" />
+  <project path="hardware/ti/wpan" name="hardware_ti_wpan" remote="aoscp" />
+  <project path="packages/services/AudioService" name="packages_services_AudioService" remote="aoscp" />
+  <project path="packages/apps/Calculator" name="packages_apps_Calculator" groups="pdk-fs" remote="aoscp" />
+  <project path="packages/apps/Calendar" name="packages_apps_Calendar" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Camero" name="packages_apps_Camero" remote="aoscp" revision="n7.1" />
   <project path="packages/apps/COTA" name="packages_apps_COTA" remote="aoscp" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Ember" name="packages_apps_Ember" remote="aoscp" />
+  <project path="packages/apps/Exchange" name="packages_apps_Exchange" remote="aoscp" />
+  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Luna" name="packages_apps_Luna" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="aoscp" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="prebuilts/cmsdk" name="prebuilts_cmsdk" remote="aoscp" />
+  <project path="system/bt" name="system_bt" groups="pdk" remote="aoscp" />
   <project path="system/core" name="system_core" groups="pdk" remote="aoscp" />
+  <project path="system/extras" name="system_extras" groups="pdk" remote="aoscp" />
+  <project path="system/extras/su" name="system_extras_su" remote="aoscp" />
   <project path="system/qcom" name="system_qcom" groups="qcom" remote="aoscp" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="aoscp" />
   <project path="system/tools/aidl" name="system_tools_aidl" remote="aoscp" />
   <project path="vendor/aoscp" name="vendor_aoscp" remote="aoscp" />
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="aoscp" />
   <project path="vendor/cmsdk" name="vendor_parto_sdk" remote="aoscp" />
 
   <!-- Qualcomm HAL Packages -->
@@ -118,20 +140,9 @@
   <project path="external/vim" remote="cm" name="android_external_vim" />
   <project path="external/yaffs2" remote="cm" name="android_external_yaffs2" />
   <project path="external/zip" remote="cm" name="android_external_zip" />
-  <project path="hardware/broadcom/libbt" remote="cm" name="android_hardware_broadcom_libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" remote="cm" name="android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" />
-  <project path="hardware/ti/omap4" remote="cm" name="android_hardware_ti_omap4" />
-  <project path="hardware/ti/wlan" remote="cm" name="android_hardware_ti_wlan" />
-  <project path="hardware/ti/wpan" remote="cm" name="android_hardware_ti_wpan" />
-  <project path="packages/apps/Eleven" remote="cm" name="android_packages_apps_Eleven" />
-  <project path="packages/apps/Exchange" remote="cm" name="android_packages_apps_Exchange" />
   <project path="packages/apps/FMRadio" remote="cm" name="android_packages_apps_FMRadio" />
   <project path="packages/apps/ThemeChooser" remote="cm" name="android_packages_apps_ThemeChooser" />
   <project path="packages/providers/ThemesProvider" remote="cm" name="android_packages_providers_ThemesProvider" />
-  <project path="packages/services/CMAudioService" remote="cm" name="android_packages_services_CMAudioService" />
   <project path="packages/services/ThemeManagerService" remote="cm" name="android_packages_services_ThemeManagerService" />
-  <project path="system/extras/su" remote="cm" name="android_system_extras_su" />
-  <project path="vendor/codeaurora/telephony" remote="cm" name="android_vendor_codeaurora_telephony" />
-
   
 </manifest>
