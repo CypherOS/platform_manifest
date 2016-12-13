@@ -30,7 +30,7 @@
   <project path="hardware/ti/omap4" name="hardware_ti_omap4" remote="aoscp" />
   <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="aoscp" />
   <project path="hardware/ti/wpan" name="hardware_ti_wpan" remote="aoscp" />
-  <project path="packages/services/AudioService" name="packages_services_AudioService" remote="aoscp" />
+  <project path="packages/apps/Browser" name="packages_apps_Browser" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Camero" name="packages_apps_Camero" remote="aoscp" revision="n7.1" />
@@ -43,6 +43,7 @@
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/WallpaperPicker" name="packages_apps_WallpaperPicker" remote="aoscp" />
+  <project path="packages/services/AudioService" name="packages_services_AudioService" remote="aoscp" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="prebuilts/cmsdk" name="prebuilts_cmsdk" remote="aoscp" />
   <project path="system/bt" name="system_bt" groups="pdk" remote="aoscp" />
