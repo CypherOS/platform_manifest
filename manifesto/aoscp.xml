@@ -14,7 +14,7 @@
   <project path="development" name="development" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aoscp" />
   <project path="external/mksh" name="external_mksh" groups="pdk" remote="aoscp" />
-  <project path="external/aoscp/smartdialogs" name="external_aoscp_smartdialogs" remote="aoscp" />
+  <project path="external/aoscp-framework" name="external_aoscp-framework" remote="aoscp" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="aoscp" />
   <project path="frameworks/base" name="frameworks_base" remote="aoscp" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="aoscp" />
