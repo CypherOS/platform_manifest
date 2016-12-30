@@ -13,6 +13,10 @@
   <project path="dalvik" name="dalvik" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="development" name="development" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aoscp" />
+  <project path="external/aac" name="external_aac" groups="pdk" remote="aoscp" />
+  <project path="external/android-clat" name="external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
+  <project path="external/apache-http" name="external_apache-http" groups="pdk" remote="aoscp" />
+  <project path="external/boringssl" name="external_boringssl" groups="pdk" remote="aoscp" />
   <project path="external/mksh" name="external_mksh" groups="pdk" remote="aoscp" />
   <project path="external/aoscp-framework" name="external_aoscp-framework" remote="aoscp" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="aoscp" />
@@ -27,12 +31,17 @@
   <project path="hardware/aoscp" name="hardware_cygn_aoscp" remote="aoscp" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" groups="pdk" remote="aoscp" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="aoscp" />
+  <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="aoscp" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="aoscp" />
   <project path="hardware/ti/omap4" name="hardware_ti_omap4" remote="aoscp" />
   <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="aoscp" />
   <project path="hardware/ti/wpan" name="hardware_ti_wpan" remote="aoscp" />
+  <project path="libcore" name="libcore" groups="pdk" remote="aoscp" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" groups="pdk-fs" remote="aoscp" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Camero" name="packages_apps_Camero" remote="aoscp" revision="n7.1" />
   <project path="packages/apps/COTA" name="packages_apps_COTA" remote="aoscp" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="aoscp" />
