@@ -10,16 +10,6 @@
            fetch="https://github.com/LineageOS"
            review="review.lineageos.org"
            revision="refs/heads/cm-14.1" />
-		   
-  <remote  name="tm"
-           fetch="https://github.com/TheMuppets"
-           revision="refs/heads/cm-14.1" />
-
-  <remote  name="aicp"
-           fetch="https://github.com/AICP"
-           review="gerrit.aicp-rom.com"
-           revision="refs/heads/n7.1"
-           />
 
   <remote  name="github"
            fetch="https://github.com/" />
