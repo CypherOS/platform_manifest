@@ -15,10 +15,22 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aoscp" />
   <project path="external/aac" name="external_aac" groups="pdk" remote="aoscp" />
   <project path="external/android-clat" name="external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
+  <project path="external/aoscp-framework" name="external_aoscp-framework" remote="aoscp" />
   <project path="external/apache-http" name="external_apache-http" groups="pdk" remote="aoscp" />
   <project path="external/boringssl" name="external_boringssl" groups="pdk" remote="aoscp" />
+  <project path="external/bzip2" name="external_bzip2" groups="pdk" remote="aoscp" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="aoscp" />
+  <project path="external/elfutils" name="external_elfutils" groups="pdk" remote="aoscp" />
+  <project path="external/f2fs-tools" name="external_f2fs-tools" groups="pdk" remote="aoscp" />
+  <project path="external/flac" name="external_flac" groups="pdk" remote="aoscp" />
+  <project path="external/fsck_msdos" name="external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
+  <project path="external/gptfdisk" name="external_gptfdisk" groups="pdk-fs" remote="aoscp" />
+  <project path="external/icu" name="external_icu" groups="pdk" remote="aoscp" />
+  <project path="external/iproute2" name="external_iproute2" groups="pdk" remote="aoscp" />
+  <project path="external/ipsec-tools" name="external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
+  <project path="external/iptables" name="external_iptables" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
+  <project path="external/jemalloc"  name="external_jemalloc" groups="pdk" remote="aoscp" />
   <project path="external/mksh" name="external_mksh" groups="pdk" remote="aoscp" />
-  <project path="external/aoscp-framework" name="external_aoscp-framework" remote="aoscp" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="aoscp" />
   <project path="frameworks/base" name="frameworks_base" remote="aoscp" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="aoscp" />
@@ -34,6 +46,7 @@
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="aoscp" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="aoscp" />
   <project path="hardware/ti/omap4" name="hardware_ti_omap4" remote="aoscp" />
+  <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" groups="omap4" remote="aoscp" />
   <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="aoscp" />
   <project path="hardware/ti/wpan" name="hardware_ti_wpan" remote="aoscp" />
   <project path="libcore" name="libcore" groups="pdk" remote="aoscp" />
@@ -60,9 +73,14 @@
   <project path="system/core" name="system_core" groups="pdk" remote="aoscp" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="aoscp" />
   <project path="system/extras/su" name="system_extras_su" remote="aoscp" />
+  <project path="system/keymaster" name="system_keymaster" groups="pdk" remote="aoscp" />
+  <project path="system/media" name="system_media" groups="pdk" remote="aoscp" />
+  <project path="system/netd" name="system_netd" groups="pdk" remote="aoscp" />
   <project path="system/qcom" name="system_qcom" groups="qcom" remote="aoscp" />
+  <project path="system/security" name="system_security" groups="pdk" remote="aoscp" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="aoscp" />
   <project path="system/tools/aidl" name="system_tools_aidl" remote="aoscp" />
+  <project path="system/vold" name="system_vold" groups="pdk" remote="aoscp" />
   <project path="vendor/aoscp" name="vendor_aoscp" remote="aoscp" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="aoscp" />
   <project path="vendor/cmsdk" name="vendor_parto_sdk" remote="aoscp" />
