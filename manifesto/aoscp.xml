@@ -55,7 +55,6 @@
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs" remote="aoscp" />
-  <project path="packages/apps/Camero" name="packages_apps_Camero" remote="aoscp" revision="n7.1" />
   <project path="packages/apps/COTA" name="packages_apps_COTA" remote="aoscp" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Ember" name="packages_apps_Ember" remote="aoscp" />
