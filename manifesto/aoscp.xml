@@ -176,5 +176,9 @@
   <project path="packages/apps/ThemeChooser" remote="los" name="android_packages_apps_ThemeChooser" />
   <project path="packages/providers/ThemesProvider" remote="los" name="android_packages_providers_ThemesProvider" />
   <project path="packages/services/ThemeManagerService" remote="los" name="android_packages_services_ThemeManagerService" />
-  
+
+<!-- BEGIN SUBSTRATUM -->
+  <project name="TeamSubstratum/masquerade" path="packages/apps/masquerade" remote="github" revision="n" />
+<!-- END SUBSTRATUM -->  
+
 </manifest>
