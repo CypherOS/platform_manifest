@@ -181,7 +181,7 @@
   <project path="packages/services/ThemeManagerService" remote="los" name="android_packages_services_ThemeManagerService" />
 
 <!-- BEGIN SUBSTRATUM -->
-  <project name="TeamSubstratum/masquerade" path="packages/apps/masquerade" remote="github" revision="n" />
+  <project name="packages_services_Masquerade" path="packages/apps/masquerade" remote="aoscp" revision="nougat-mr1-oms" />
 <!-- END SUBSTRATUM -->  
 
 </manifest>
