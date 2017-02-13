@@ -173,8 +173,5 @@
   <project path="external/yaffs2" remote="los" name="android_external_yaffs2" />
   <project path="external/zip" remote="los" name="android_external_zip" />
   <project path="packages/apps/FMRadio" remote="los" name="android_packages_apps_FMRadio" />
-  <project path="packages/apps/ThemeChooser" remote="los" name="android_packages_apps_ThemeChooser" />
-  <project path="packages/providers/ThemesProvider" remote="los" name="android_packages_providers_ThemesProvider" />
-  <project path="packages/services/ThemeManagerService" remote="los" name="android_packages_services_ThemeManagerService" />
   
 </manifest>
