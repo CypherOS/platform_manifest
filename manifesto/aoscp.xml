@@ -15,7 +15,6 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aoscp" />
   <project path="external/aac" name="external_aac" groups="pdk" remote="aoscp" />
   <project path="external/android-clat" name="external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
-  <project path="external/aoscp-framework" name="external_aoscp-framework" remote="aoscp" />
   <project path="external/apache-http" name="external_apache-http" groups="pdk" remote="aoscp" />
   <project path="external/boringssl" name="external_boringssl" groups="pdk" remote="aoscp" />
   <project path="external/bzip2" name="external_bzip2" groups="pdk" remote="aoscp" />
@@ -38,7 +37,7 @@
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="aoscp" />
   <project path="frameworks/base" name="frameworks_base" remote="aoscp" groups="pdk-cw-fs,pdk-fs" revision="nougat-mr1-oms" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="aoscp" revision="nougat-mr1-oms" />
-  <project path="frameworks/opt/hardware" name="frameworks_opt_hardware"  remote="aoscp" />
+  <project path="frameworks/opt/aoscp" name="frameworks_opt_aoscp"  remote="aoscp" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="frameworks/opt/setupwizard" name="frameworks_opt_setupwizard" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="aoscp" />
