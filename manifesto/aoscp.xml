@@ -34,6 +34,7 @@
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" groups="pdk" remote="aoscp" />
   <project path="external/libselinux" name="external_libselinux" groups="pdk" remote="aoscp" />
   <project path="external/mksh" name="external_mksh" groups="pdk" remote="aoscp" />
+  <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="aoscp" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="aoscp" />
   <project path="frameworks/base" name="frameworks_base" remote="aoscp" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="aoscp" />
