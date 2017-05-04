@@ -179,7 +179,7 @@
   <project path="packages/apps/FMRadio" remote="los" name="android_packages_apps_FMRadio" />
   
 <!-- BEGIN SUBSTRATUM -->
-  <project name="packages_services_ThemeInterfacer" path="packages/apps/ThemeInterfacer" remote="aoscp" revision="nougat-mr1-oms" />
+  <project name="packages_services_ThemeInterfacer" path="packages/services/ThemeInterfacer" remote="aoscp" revision="nougat-mr1-oms" />
 <!-- END SUBSTRATUM -->  
 
 </manifest>
