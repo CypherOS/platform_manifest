@@ -47,7 +47,7 @@
   <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" groups="pdk" remote="aoscp" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="aoscp" />
-  <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="aoscp" />
+  <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="aoscp" revision="nougat-mr2" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="aoscp" />
   <project path="hardware/ti/omap4" name="hardware_ti_omap4" remote="aoscp" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" groups="omap4" remote="aoscp" />
@@ -74,7 +74,7 @@
   <project path="packages/apps/Recorder" name="packages_apps_Recorder" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="aoscp" revision="nougat-mr2" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" remote="caf" />
-  <project path="packages/apps/WallpaperPicker" name="packages_apps_WallpaperPicker" remote="aoscp" />
+  <project path="packages/apps/WallpaperPicker" name="packages_apps_WallpaperPicker" remote="aoscp" revision="nougat-mr2" />
   <project path="packages/services/AudioService" name="packages_services_AudioService" remote="aoscp" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aoscp" revision="nougat-mr2" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
