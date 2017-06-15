@@ -115,6 +115,7 @@
   <project path="packages/apps/WallpaperPicker" name="packages_apps_WallpaperPicker" remote="aoscp" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
+  <project path="packages/services/ThemeInterfacer" name="packages_services_ThemeInterfacer" remote="aoscp" />
   
   <!-- System Resources -->
   <project path="system/bt" name="system_bt" groups="pdk" remote="aoscp" />
