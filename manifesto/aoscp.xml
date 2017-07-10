@@ -94,6 +94,7 @@
   
   <!-- System Packages --> 
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
+  <project path="packages/apps/Bolt" name="packages_apps_Bolt" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs" remote="aoscp" />
