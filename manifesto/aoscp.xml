@@ -152,6 +152,7 @@
   <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="nougat-mr2-8974" remote="aoscp" />
   <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="nougat-mr2-8994" remote="aoscp" />
   <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="nougat-mr2-8996" remote="aoscp" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="nougat-mr2-8998" remote="aoscp" />
   <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" groups="pdk" remote="aoscp" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom" remote="aoscp" />
   <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" revision="nougat-mr2-caf" remote="aoscp" />
@@ -165,6 +166,7 @@
   <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="nougat-mr2-8974" remote="aoscp" />
   <project path="hardware/qcom/display-caf/msm8994" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="nougat-mr2-8994" remote="aoscp" />
   <project path="hardware/qcom/display-caf/msm8996" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="nougat-mr2-8996" remote="aoscp" />
+  <project path="hardware/qcom/display-caf/msm8998" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="nougat-mr2-8998" remote="aoscp" />
   <project path="hardware/qcom/fm" name="hardware_qcom_fm" groups="qcom,qcom_fm" remote="aoscp" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom,qcom_gps" remote="aoscp" />
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="aoscp" />
@@ -177,6 +179,7 @@
   <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" groups="qcom" revision="nougat-mr2-8974" remote="aoscp" />
   <project path="hardware/qcom/media-caf/msm8994" name="hardware_qcom_media" groups="qcom" revision="nougat-mr2-8994" remote="aoscp" />
   <project path="hardware/qcom/media-caf/msm8996" name="hardware_qcom_media" groups="qcom" revision="nougat-mr2-8996" remote="aoscp" />
+  <project path="hardware/qcom/media-caf/msm8998" name="hardware_qcom_media" groups="qcom" revision="nougat-mr2-8998" remote="aoscp" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan" remote="aoscp" />
   <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" groups="qcom_wlan" revision="nougat-mr2-caf" remote="aoscp" />
   <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="aoscp" />
