@@ -11,7 +11,7 @@ Initializing Repository
 
 Initiate core trees without any device/kernel/vendor:
 
-    $ repo init -u https://github.com/CypherOS/platform_manifest.git -b nougat-mr1
+    $ repo init -u https://github.com/CypherOS/platform_manifest.git -b nougat-mr2
 
 Sync the repository:
 
@@ -30,10 +30,10 @@ After the sync is finished, please read the [instructions from the Android site]
     
     Pick your device by typing it's number followed by enter
 
-You can also build for specific devices (eg. hammerhead) like this:
+You can also build for specific devices (eg. bullhead) like this:
 
     . build/envsetup.sh
-    brunch aoscp_bullhead-userdebug
-    mka pizza
 
-Remember to `make clobber && make clean` every now and then!
+    brunch aoscp_bullhead-userdebug
+
+Remember to `make clobber` every now and then!
