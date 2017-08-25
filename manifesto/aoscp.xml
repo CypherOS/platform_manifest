@@ -25,12 +25,12 @@
   <project path="external/bash" name="external_bash" remote="aoscp" />
   <project path="external/boringssl" name="external_boringssl" groups="pdk" remote="aoscp" />
   <project path="external/brctl" name="external_brctl" remote="aoscp" />
-  <project path="external/bzip2" name="external_bzip2" groups="pdk" remote="aoscp" />
+  <project path="external/bzip2" name="external_bzip2" groups="pdk" remote="aoscp" />-->
   <project path="external/connectivity" name="external_connectivity" remote="aoscp" />
-  <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="aoscp" />
-  <project path="external/ebtables" name="external_ebtables" remote="aoscp" />
+  <!--<project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="aoscp" />
+  <project path="external/ebtables" name="external_ebtables" remote="aoscp" />-->
   <project path="external/elfutils" name="external_elfutils" groups="pdk" remote="aoscp" />
-  <project path="external/exfat" name="external_exfat" remote="aoscp" />
+  <!--<project path="external/exfat" name="external_exfat" remote="aoscp" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" groups="pdk" remote="aoscp" />
   <project path="external/ffmpeg" name="external_ffmpeg" remote="aoscp" />
   <project path="external/flac" name="external_flac" groups="pdk" remote="aoscp" />
@@ -52,16 +52,16 @@
   <project path="external/libncurses" name="external_libncurses" remote="aoscp" />
   <project path="external/libnetfilter_conntrack" name="external_libnetfilter_conntrack" remote="aoscp" />
   <project path="external/libnfnetlink" name="external_libnfnetlink" remote="aoscp" />
-  <project path="external/libnfc-nci" name="external_libnfc-nci" groups="pdk" remote="aoscp" />
+  <project path="external/libnfc-nci" name="external_libnfc-nci" groups="pdk" remote="aoscp" />-->
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" groups="pdk" remote="aoscp" />
-  <project path="external/libphonenumbergoogle" name="external_libphonenumbergoogle" remote="aoscp" />
+  <!--<project path="external/libphonenumbergoogle" name="external_libphonenumbergoogle" remote="aoscp" />
   <project path="external/libselinux" name="external_libselinux" groups="pdk" remote="aoscp" />
   <project path="external/libtar" name="external_libtar" remote="aoscp" />
   <project path="external/libtruezip" name="external_libtruezip" remote="aoscp" />
   <project path="external/libvterm" name="external_libvterm" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
-  <project path="external/lzo" name="external_lzo" remote="aoscp" />
+  <project path="external/lzo" name="external_lzo" remote="aoscp" />-->
   <project path="external/mksh" name="external_mksh" groups="pdk" remote="aoscp" />
-  <project path="external/mm-dash" name="external_mm-dash" remote="aoscp" />
+  <!--<project path="external/mm-dash" name="external_mm-dash" remote="aoscp" />
   <project path="external/nano" name="external_nano" remote="aoscp" />
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="aoscp" />
   <project path="external/openssh" name="external_openssh" remote="aoscp" />
@@ -72,8 +72,10 @@
   <project path="external/rsync" name="external_rsync" remote="aoscp" />-->
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="aoscp" />
   <!--<project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="aoscp" />
-  <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="aoscp" />
-  <project path="external/unrar" name="external_unrar" remote="aoscp" />
+  <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="aoscp" />-->
+  <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="aoscp" />
+  <project path="external/toybox" name="external_toybox" groups="pdk" remote="aoscp" />
+  <!--<project path="external/unrar" name="external_unrar" remote="aoscp" />
   <project path="external/unzip" name="external_unzip" remote="aoscp" />
   <project path="external/vim" name="external_vim" remote="aoscp" />
   <project path="external/yaffs2" name="external_yaffs2" remote="aoscp" />
@@ -99,9 +101,9 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <!--<project path="dalvik" name="dalvik" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
+  <!--<project path="dalvik" name="dalvik" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />-->
   <project path="development" name="development" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
-  <project path="libcore" name="libcore" groups="pdk" remote="aoscp" />-->
+  <!--<project path="libcore" name="libcore" groups="pdk" remote="aoscp" />-->
   
   <!-- System Packages
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
@@ -116,28 +118,29 @@
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" remote="caf" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" remote="caf" />
-  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" groups="pdk-fs" remote="aoscp" />
+  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" groups="pdk-fs" remote="aoscp" />-->
   <project path="packages/apps/Luna" name="packages_apps_Luna" groups="pdk-fs" remote="aoscp" />
-  <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="aoscp" />-->
+  <!--<project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="aoscp" />-->
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" groups="pdk-fs" remote="aoscp" />
   <!--<project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" groups="pdk-fs" remote="aoscp" />
-  <project path="packages/apps/Recorder" name="packages_apps_Recorder" groups="pdk-fs" remote="aoscp" />
+  <project path="packages/apps/Recorder" name="packages_apps_Recorder" groups="pdk-fs" remote="aoscp" />-->
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="aoscp" />
-  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" remote="caf" />
-  <project path="packages/apps/WallpaperPicker" name="packages_apps_WallpaperPicker" remote="aoscp" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
+  <!--<project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" remote="caf" />
+  <project path="packages/apps/WallpaperPicker" name="packages_apps_WallpaperPicker" remote="aoscp" />-->
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
+  <!--<project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="packages/services/ThemeInterfacer" name="packages_services_ThemeInterfacer" remote="aoscp" />-->
   
   <!-- System Resources -->
   <project path="system/bt" name="system_bt" groups="pdk" remote="aoscp" />
   <project path="system/core" name="system_core" groups="pdk" remote="aoscp" />
-  <!--<project path="system/extras" name="system_extras" groups="pdk" remote="aoscp" />
-  <project path="system/keymaster" name="system_keymaster" groups="pdk" remote="aoscp" />-->
+  <project path="system/extras" name="system_extras" groups="pdk" remote="aoscp" />
+  <!--<project path="system/keymaster" name="system_keymaster" groups="pdk" remote="aoscp" />-->
   <project path="system/media" name="system_media" groups="pdk" remote="aoscp" />
-  <!--<project path="system/netd" name="system_netd" groups="pdk" remote="aoscp" />
-  <project path="system/qcom" name="system_qcom" groups="qcom" remote="aoscp" />
+  <project path="system/netd" name="system_netd" groups="pdk" remote="aoscp" />
+  <!--<project path="system/qcom" name="system_qcom" groups="qcom" remote="aoscp" />
   <project path="system/security" name="system_security" groups="pdk" remote="aoscp" />-->
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="aoscp" />
   <!--<project path="system/tools/aidl" name="system_tools_aidl" remote="aoscp" />
@@ -200,9 +203,9 @@
   
   <!-- Vendors -->
   <project path="vendor/aoscp" name="vendor_aoscp" remote="aoscp" />
-  <!--<project path="vendor/codeaurora/telephony" name="platform/vendor/codeaurora/telephony" remote="caf" />
+  <!--<project path="vendor/codeaurora/telephony" name="platform/vendor/codeaurora/telephony" remote="caf" />-->
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="aoscp" />
-  <project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="aoscp" />
+  <!--<project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="aoscp" />
   <project path="vendor/qcom/opensource/time-services" name="vendor_qcom_opensource_time-services" remote="aoscp" />
   <project path="vendor/qcom/opensource/bluetooth" name="vendor_qcom_opensource_bluetooth" remote="aoscp" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="aoscp" />
