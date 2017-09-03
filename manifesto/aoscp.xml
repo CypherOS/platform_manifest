@@ -3,15 +3,20 @@
 
   <!-- Manifest & Build Environment -->
   <project path="platform_manifest" name="platform_manifest" remote="aoscp" />
-  <project path="build" name="build" groups="pdk" remote="aoscp">
+  <project path="build/make" name="build" groups="pdk" remote="aoscp" >
     <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
   </project>
 
   <!-- External Packages -->
   <project path="external/aac" name="external_aac" groups="pdk" remote="aoscp" />
-  <project path="external/ahbottomnavigation" name="external_ahbottomnavigation" remote="aoscp" />
-  <project path="external/android-clat" name="external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
-  <project path="external/android-visualizer" name="external_android-visualizer" remote="aoscp" />
+  <!--<project path="external/android-clat" name="external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
+  <project path="external/android-visualizer" name="external_android-visualizer" remote="aoscp" />-->
   <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="aoscp" />
   <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="aoscp" />
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="aoscp" />
@@ -26,13 +31,13 @@
   <project path="external/elfutils" name="external_elfutils" groups="pdk" remote="aoscp" />
   <project path="external/exfat" name="external_exfat" remote="aoscp" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" groups="pdk" remote="aoscp" />
-  <project path="external/ffmpeg" name="external_ffmpeg" remote="aoscp" />
+  <!--<project path="external/ffmpeg" name="external_ffmpeg" remote="aoscp" />-->
   <project path="external/flac" name="external_flac" groups="pdk" remote="aoscp" />
   <project path="external/fsck_msdos" name="external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="external/fuse" name="external_fuse" remote="aoscp" />
-  <project path="external/google" name="external_google" remote="aoscp" />
-  <project path="external/gptfdisk" name="external_gptfdisk" groups="pdk-fs" remote="aoscp" />
-  <project path="external/gson" name="external_gson" remote="aoscp" />
+  <!--<project path="external/google" name="external_google" remote="aoscp" />
+  <project path="external/gptfdisk" name="external_gptfdisk" groups="pdk-fs" remote="aoscp" />-->
+  <!--<project path="external/gson" name="external_gson" remote="aoscp" />-->
   <project path="external/htop" name="external_htop" remote="aoscp" />
   <project path="external/icu" name="external_icu" groups="pdk" remote="aoscp" />
   <project path="external/iproute2" name="external_iproute2" groups="pdk" remote="aoscp" />
@@ -41,146 +46,155 @@
   <project path="external/iw" name="external_iw" remote="aoscp" />
   <project path="external/jemalloc"  name="external_jemalloc" groups="pdk" remote="aoscp" />
   <project path="external/json-c" name="external_json-c" remote="aoscp" />
-  <project path="external/koush/ion" name="ion" remote="aoscp" />
   <project path="external/libhevc" name="external_libhevc" groups="pdk-fs" remote="aoscp" />
   <project path="external/libncurses" name="external_libncurses" remote="aoscp" />
   <project path="external/libnetfilter_conntrack" name="external_libnetfilter_conntrack" remote="aoscp" />
   <project path="external/libnfnetlink" name="external_libnfnetlink" remote="aoscp" />
-  <project path="external/libnfc-nci" name="external_libnfc-nci" groups="pdk" remote="aoscp" />
+  <!--<project path="external/libnfc-nci" name="external_libnfc-nci" groups="pdk" remote="aoscp" />-->
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" groups="pdk" remote="aoscp" />
-  <project path="external/libphonenumbergoogle" name="external_libphonenumbergoogle" remote="aoscp" />
+  <!--<project path="external/libphonenumbergoogle" name="external_libphonenumbergoogle" remote="aoscp" />
   <project path="external/libselinux" name="external_libselinux" groups="pdk" remote="aoscp" />
   <project path="external/libtar" name="external_libtar" remote="aoscp" />
-  <project path="external/libtruezip" name="external_libtruezip" remote="aoscp" />
+  <project path="external/libtruezip" name="external_libtruezip" remote="aoscp" />-->
   <project path="external/libvterm" name="external_libvterm" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
-  <project path="external/lzo" name="external_lzo" remote="aoscp" />
+  <!--<project path="external/lzo" name="external_lzo" remote="aoscp" />-->
   <project path="external/mksh" name="external_mksh" groups="pdk" remote="aoscp" />
-  <project path="external/mm-dash" name="external_mm-dash" remote="aoscp" />
+  <!--<project path="external/mm-dash" name="external_mm-dash" remote="aoscp" />-->
   <project path="external/nano" name="external_nano" remote="aoscp" />
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="aoscp" />
-  <project path="external/openssh" name="external_openssh" remote="aoscp" />
-  <project path="external/p7zip" name="external_p7zip" remote="aoscp" />
-  <project path="external/pigz" name="external_pigz" remote="aoscp" />
+  <!--<project path="external/openssh" name="external_openssh" remote="aoscp" />
+  <!--<project path="external/p7zip" name="external_p7zip" remote="aoscp" />
+  <project path="external/pigz" name="external_pigz" remote="aoscp" />-->
   <project path="external/powertop" name="external_powertop" remote="aoscp" />
-  <project path="external/protobuf-c" name="external_protobuf-c" remote="aoscp" />
-  <project path="external/rsync" name="external_rsync" remote="aoscp" />
+  <!--<project path="external/protobuf-c" name="external_protobuf-c" remote="aoscp" />
+  <project path="external/rsync" name="external_rsync" remote="aoscp" />-->
+  <project path="external/selinux" name="external_selinux" groups="pdk" remote="aoscp" />
   <project path="external/skia" name="external_skia" groups="pdk,qcom_msm8x26" remote="aoscp" />
-  <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="aoscp" />
-  <project path="external/unrar" name="external_unrar" remote="aoscp" />
+  <!--<project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="aoscp" />-->
+  <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="aoscp" />
+  <project path="external/toybox" name="external_toybox" groups="pdk" remote="aoscp" />
+  <!--<project path="external/unrar" name="external_unrar" remote="aoscp" />
   <project path="external/unzip" name="external_unzip" remote="aoscp" />
   <project path="external/vim" name="external_vim" remote="aoscp" />
   <project path="external/yaffs2" name="external_yaffs2" remote="aoscp" />
-  <project path="external/zip" name="external_zip" remote="aoscp" />
+  <project path="external/zip" name="external_zip" remote="aoscp" />-->
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="aoscp" />
   <project path="frameworks/base" name="frameworks_base" remote="aoscp" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="aoscp" />
-  <project path="frameworks/opt/aoscp" name="frameworks_opt_aoscp"  remote="aoscp" />
+  <!--<project path="frameworks/opt/aoscp" name="frameworks_opt_aoscp"  remote="aoscp" />
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="caf" />
   <project path="frameworks/opt/setupwizard" name="frameworks_opt_setupwizard" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="aoscp" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="aoscp" />-->
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="aoscp" />
-  <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
+  <!--<project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />-->
   
   <!-- Framework dependents -->
   <project path="art" name="art" groups="pdk" remote="aoscp" />
   <project path="bionic" name="bionic" groups="pdk" remote="aoscp" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="aoscp" />
   <project path="build/kati" name="build_kati" groups="pdk,tradefed" remote="aoscp" />
-  <project path="dalvik" name="dalvik" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="aoscp">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <!--<project path="dalvik" name="dalvik" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />-->
   <project path="development" name="development" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
-  <project path="libcore" name="libcore" groups="pdk" remote="aoscp" />  
+  <!--<project path="libcore" name="libcore" groups="pdk" remote="aoscp" />-->
   
-  <!-- System Packages --> 
+  <!-- System Packages -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="packages/apps/Bolt" name="packages_apps_Bolt" groups="pdk-fs" remote="aoscp" />
-  <project path="packages/apps/Calculator" name="packages_apps_Calculator" groups="pdk-fs" remote="aoscp" />
+  <project path="packages/apps/ExactCalculator" name="packages_apps_Calculator" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="aoscp" />
-  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/COTA" name="packages_apps_COTA" remote="aoscp" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="aoscp" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" groups="pdk-fs" remote="caf" />
-  <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" remote="caf" />
+  <project path="packages/apps/Email" name="packages_apps_Email" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Luna" name="packages_apps_Luna" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="aoscp" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-fs" remote="aoscp" />
-  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" groups="pdk-fs" remote="aoscp" />
+  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="packages/apps/Recorder" name="packages_apps_Recorder" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="aoscp" />
-  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" remote="caf" />
+  <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/WallpaperPicker" name="packages_apps_WallpaperPicker" remote="aoscp" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="aoscp" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
-  <project path="packages/services/ThemeInterfacer" name="packages_services_ThemeInterfacer" remote="aoscp" />
+  <!--<project path="packages/services/ThemeInterfacer" name="packages_services_ThemeInterfacer" remote="aoscp" />-->
   
   <!-- System Resources -->
   <project path="system/bt" name="system_bt" groups="pdk" remote="aoscp" />
   <project path="system/core" name="system_core" groups="pdk" remote="aoscp" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="aoscp" />
-  <project path="system/keymaster" name="system_keymaster" groups="pdk" remote="aoscp" />
+  <!--<project path="system/keymaster" name="system_keymaster" groups="pdk" remote="aoscp" />-->
   <project path="system/media" name="system_media" groups="pdk" remote="aoscp" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="aoscp" />
+  <project path="system/nfc" name="system_nfc" groups="pdk" remote="aoscp" />
   <project path="system/qcom" name="system_qcom" groups="qcom" remote="aoscp" />
-  <project path="system/security" name="system_security" groups="pdk" remote="aoscp" />
+  <!--<project path="system/security" name="system_security" groups="pdk" remote="aoscp" />-->
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="aoscp" />
-  <project path="system/tools/aidl" name="system_tools_aidl" remote="aoscp" />
+  <!--<project path="system/tools/aidl" name="system_tools_aidl" remote="aoscp" />-->
   <project path="system/vold" name="system_vold" groups="pdk" remote="aoscp" />
   
-  <!-- Hardware Layer Resources-->
+  <!-- Hardware Layer Resources
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" groups="pdk" remote="aoscp" />
-  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="aoscp" />
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="aoscp" />-->
+  <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="aoscp" />
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="aoscp" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="aoscp" />
-  <project path="hardware/ti/omap4" name="hardware_ti_omap4" remote="aoscp" />
+  <!--<project path="hardware/ti/omap4" name="hardware_ti_omap4" remote="aoscp" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" groups="omap4" remote="aoscp" />
   <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="aoscp" />
-  <project path="hardware/ti/wpan" name="hardware_ti_wpan" remote="aoscp" />
+  <project path="hardware/ti/wpan" name="hardware_ti_wpan" remote="aoscp" />-->
   
-  <!-- Qualcomm Sepolicy -->
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aoscp" />
+  <!-- Qualcomm Sepolicy
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aoscp" />-->
   <!-- Qualcomm HAL Packages -->
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="aoscp" />
-  <project path="hardware/qcom/audio-caf/apq8084" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="nougat-mr2-8084" remote="aoscp" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="nougat-mr2-8916" remote="aoscp" />
-  <project path="hardware/qcom/audio-caf/msm8937" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="nougat-mr2-8937" remote="aoscp" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="nougat-mr2-8952" remote="aoscp" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="nougat-mr2-8960" remote="aoscp" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="nougat-mr2-8974" remote="aoscp" />
-  <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="nougat-mr2-8994" remote="aoscp" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="nougat-mr2-8996" remote="aoscp" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="nougat-mr2-8998" remote="aoscp" />
-  <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" groups="pdk" remote="aoscp" />
+  <project path="hardware/qcom/audio-caf/apq8084" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="oreo-release-8084" remote="aoscp" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="oreo-release-8916" remote="aoscp" />
+  <project path="hardware/qcom/audio-caf/msm8937" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="oreo-release-8937" remote="aoscp" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="oreo-release-8952" remote="aoscp" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="oreo-release-8960" remote="aoscp" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="oreo-release-8974" remote="aoscp" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="oreo-release-8994" remote="aoscp" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="oreo-release-8996" remote="aoscp" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="oreo-release-8998" remote="aoscp" />
+  <!--<project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" groups="pdk" remote="aoscp" />-->
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom" remote="aoscp" />
-  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" revision="nougat-mr2-caf" remote="aoscp" />
-  <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="qcom" remote="aoscp" />
+  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" revision="oreo-release-caf" remote="aoscp" />
+  <!--<project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="qcom" remote="aoscp" />-->
   <project path="hardware/qcom/display" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="aoscp" />
-  <project path="hardware/qcom/display-caf/apq8084" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="nougat-mr2-8084" remote="aoscp" />
-  <project path="hardware/qcom/display-caf/msm8916" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="nougat-mr2-8916" remote="aoscp" />
-  <project path="hardware/qcom/display-caf/msm8937" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="nougat-mr2-8937" remote="aoscp" />
-  <project path="hardware/qcom/display-caf/msm8952" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="nougat-mr2-8952" remote="aoscp" />
-  <project path="hardware/qcom/display-caf/msm8960" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="nougat-mr2-8960" remote="aoscp" />
-  <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="nougat-mr2-8974" remote="aoscp" />
-  <project path="hardware/qcom/display-caf/msm8994" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="nougat-mr2-8994" remote="aoscp" />
-  <project path="hardware/qcom/display-caf/msm8996" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="nougat-mr2-8996" remote="aoscp" />
-  <project path="hardware/qcom/display-caf/msm8998" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="nougat-mr2-8998" remote="aoscp" />
+  <project path="hardware/qcom/display-caf/apq8084" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="oreo-release-8084" remote="aoscp" />
+  <project path="hardware/qcom/display-caf/msm8916" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="oreo-release-8916" remote="aoscp" />
+  <project path="hardware/qcom/display-caf/msm8937" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="oreo-release-8937" remote="aoscp" />
+  <project path="hardware/qcom/display-caf/msm8952" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="oreo-release-8952" remote="aoscp" />
+  <project path="hardware/qcom/display-caf/msm8960" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="oreo-release-8960" remote="aoscp" />
+  <project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="oreo-release-8974" remote="aoscp" />
+  <project path="hardware/qcom/display-caf/msm8994" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="oreo-release-8994" remote="aoscp" />
+  <project path="hardware/qcom/display-caf/msm8996" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="oreo-release-8996" remote="aoscp" />
+  <project path="hardware/qcom/display-caf/msm8998" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="oreo-release-8998" remote="aoscp" />
   <project path="hardware/qcom/fm" name="hardware_qcom_fm" groups="qcom,qcom_fm" remote="aoscp" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom,qcom_gps" remote="aoscp" />
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="aoscp" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" groups="qcom" remote="aoscp" />
-  <project path="hardware/qcom/media-caf/apq8084" name="hardware_qcom_media" groups="qcom" revision="nougat-mr2-8084" remote="aoscp" />
-  <project path="hardware/qcom/media-caf/msm8916" name="hardware_qcom_media" groups="qcom" revision="nougat-mr2-8916" remote="aoscp" />
-  <project path="hardware/qcom/media-caf/msm8937" name="hardware_qcom_media" groups="qcom" revision="nougat-mr2-8937" remote="aoscp" />
-  <project path="hardware/qcom/media-caf/msm8952" name="hardware_qcom_media" groups="qcom" revision="nougat-mr2-8952" remote="aoscp" />
-  <project path="hardware/qcom/media-caf/msm8960" name="hardware_qcom_media" groups="qcom" revision="nougat-mr2-8960" remote="aoscp" />
-  <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" groups="qcom" revision="nougat-mr2-8974" remote="aoscp" />
-  <project path="hardware/qcom/media-caf/msm8994" name="hardware_qcom_media" groups="qcom" revision="nougat-mr2-8994" remote="aoscp" />
-  <project path="hardware/qcom/media-caf/msm8996" name="hardware_qcom_media" groups="qcom" revision="nougat-mr2-8996" remote="aoscp" />
-  <project path="hardware/qcom/media-caf/msm8998" name="hardware_qcom_media" groups="qcom" revision="nougat-mr2-8998" remote="aoscp" />
+  <project path="hardware/qcom/media-caf/apq8084" name="hardware_qcom_media" groups="qcom" revision="oreo-release-8084" remote="aoscp" />
+  <project path="hardware/qcom/media-caf/msm8916" name="hardware_qcom_media" groups="qcom" revision="oreo-release-8916" remote="aoscp" />
+  <project path="hardware/qcom/media-caf/msm8937" name="hardware_qcom_media" groups="qcom" revision="oreo-release-8937" remote="aoscp" />
+  <project path="hardware/qcom/media-caf/msm8952" name="hardware_qcom_media" groups="qcom" revision="oreo-release-8952" remote="aoscp" />
+  <project path="hardware/qcom/media-caf/msm8960" name="hardware_qcom_media" groups="qcom" revision="oreo-release-8960" remote="aoscp" />
+  <project path="hardware/qcom/media-caf/msm8974" name="hardware_qcom_media" groups="qcom" revision="oreo-release-8974" remote="aoscp" />
+  <project path="hardware/qcom/media-caf/msm8994" name="hardware_qcom_media" groups="qcom" revision="oreo-release-8994" remote="aoscp" />
+  <project path="hardware/qcom/media-caf/msm8996" name="hardware_qcom_media" groups="qcom" revision="oreo-release-8996" remote="aoscp" />
+  <project path="hardware/qcom/media-caf/msm8998" name="hardware_qcom_media" groups="qcom" revision="oreo-release-8998" remote="aoscp" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan" remote="aoscp" />
   <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" groups="qcom_wlan" revision="nougat-mr2-caf" remote="aoscp" />
   <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="aoscp" />
@@ -188,11 +202,11 @@
   
   <!-- Vendors -->
   <project path="vendor/aoscp" name="vendor_aoscp" remote="aoscp" />
-  <project path="vendor/codeaurora/telephony" name="platform/vendor/codeaurora/telephony" remote="caf" />
+  <!--<project path="vendor/codeaurora/telephony" name="platform/vendor/codeaurora/telephony" remote="caf" />-->
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="aoscp" />
-  <project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="aoscp" />
+  <!--<project path="vendor/qcom/opensource/dpm" name="vendor_qcom_opensource_dpm" remote="aoscp" />
   <project path="vendor/qcom/opensource/time-services" name="vendor_qcom_opensource_time-services" remote="aoscp" />
-  <project path="vendor/qcom/opensource/bluetooth" name="vendor_qcom_opensource_bluetooth" remote="aoscp" />
+  <project path="vendor/qcom/opensource/bluetooth" name="vendor_qcom_opensource_bluetooth" remote="aoscp" />-->
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="aoscp" />
   <project path="vendor/overlay/aoscp" name="vendor_overlay_aoscp" remote="aoscp" />
   

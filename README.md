@@ -11,7 +11,7 @@ Initializing Repository
 
 Initiate core trees without any device/kernel/vendor:
 
-    $ repo init -u https://github.com/CypherOS/platform_manifest.git -b nougat-mr2
+    $ repo init -u https://github.com/CypherOS/platform_manifest.git -b oreo-release
 
 Sync the repository:
 
