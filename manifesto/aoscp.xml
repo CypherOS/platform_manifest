@@ -155,8 +155,8 @@
   <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="aoscp" />
   <project path="hardware/ti/wpan" name="hardware_ti_wpan" remote="aoscp" />-->
   
-  <!-- Qualcomm Sepolicy
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aoscp" />-->
+  <!-- Qualcomm Sepolicy -->
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aoscp" />
   <!-- Qualcomm HAL Packages -->
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="aoscp" />
   <project path="hardware/qcom/audio-caf/apq8084" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="oreo-release-8084" remote="aoscp" />
