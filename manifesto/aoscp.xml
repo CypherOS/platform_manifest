@@ -135,6 +135,7 @@
   <project path="system/bt" name="system_bt" groups="pdk" remote="aoscp" />
   <project path="system/core" name="system_core" groups="pdk" remote="aoscp" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="aoscp" />
+  <project path="system/hardware/interfaces" name="system_hardware_interfaces" groups="pdk" remote="aoscp" />
   <!--<project path="system/keymaster" name="system_keymaster" groups="pdk" remote="aoscp" />-->
   <project path="system/media" name="system_media" groups="pdk" remote="aoscp" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="aoscp" />
@@ -158,6 +159,10 @@
   
   <!-- Qualcomm Sepolicy -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aoscp" />
+  <!-- AOSCP HAL Packages -->
+  <project path="hardware/aoscp/interfaces" name="hardware_aoscp_interfaces" remote="aoscp">
+    <copyfile dest="hardware/aoscp/Android.bp" src="Android.bp"/>
+  </project>
   <!-- Qualcomm HAL Packages -->
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="aoscp" />
   <project path="hardware/qcom/audio-caf/apq8084" name="hardware_qcom_audio" groups="qcom,qcom_audio" revision="oreo-release-8084" remote="aoscp" />
