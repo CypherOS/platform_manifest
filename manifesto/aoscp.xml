@@ -35,8 +35,8 @@
   <project path="external/flac" name="external_flac" groups="pdk" remote="aoscp" />
   <project path="external/fsck_msdos" name="external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="external/fuse" name="external_fuse" remote="aoscp" />
-  <!--<project path="external/google" name="external_google" remote="aoscp" />
-  <project path="external/gptfdisk" name="external_gptfdisk" groups="pdk-fs" remote="aoscp" />-->
+  <!--<project path="external/google" name="external_google" remote="aoscp" />-->
+  <project path="external/gptfdisk" name="external_gptfdisk" groups="pdk-fs" remote="aoscp" />
   <!--<project path="external/gson" name="external_gson" remote="aoscp" />-->
   <project path="external/htop" name="external_htop" remote="aoscp" />
   <project path="external/icu" name="external_icu" groups="pdk" remote="aoscp" />
