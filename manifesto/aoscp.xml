@@ -110,6 +110,7 @@
   <project path="packages/apps/ExactCalculator" name="packages_apps_Calculator" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs" remote="aoscp" />
+  <project path="packages/apps/CameraX" name="packages_apps_CameraX" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="packages/apps/COTA" name="packages_apps_COTA" remote="aoscp" />
