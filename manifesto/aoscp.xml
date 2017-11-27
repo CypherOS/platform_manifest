@@ -2,8 +2,8 @@
 <manifest>
 
   <!-- Manifest & Build Environment -->
-  <project path="platform_manifest" name="platform_manifest" remote="aoscp" />
-  <project path="build/make" name="build" groups="pdk" remote="aoscp" >
+  <project path="platform_manifest" name="platform_manifest" remote="aoscp" revision="oreo-dr3" />
+  <project path="build/make" name="build" groups="pdk" remote="aoscp" revision="oreo-dr3">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -81,8 +81,8 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="aoscp" />
-  <project path="frameworks/base" name="frameworks_base" remote="aoscp" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="aoscp" />
+  <project path="frameworks/base" name="frameworks_base" remote="aoscp" groups="pdk-cw-fs,pdk-fs" revision="oreo-dr3"/>
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="aoscp" revision="oreo-dr3"/>
   <!--<project path="frameworks/opt/aoscp" name="frameworks_opt_aoscp"  remote="aoscp" />
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="caf" />
   <project path="frameworks/opt/setupwizard" name="frameworks_opt_setupwizard" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />-->
@@ -125,7 +125,7 @@
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="packages/apps/Recorder" name="packages_apps_Recorder" groups="pdk-fs" remote="aoscp" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="aoscp" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="aoscp" revision="oreo-dr3"/>
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/WallpaperPicker" name="packages_apps_WallpaperPicker" remote="aoscp" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="aoscp" />
@@ -210,7 +210,7 @@
   <project path="hardware/ril-caf" name="hardware_ril" groups="pdk" revision="oreo-release-caf" remote="aoscp" />
   
   <!-- Vendors -->
-  <project path="vendor/aoscp" name="vendor_aoscp" remote="aoscp" />
+  <project path="vendor/aoscp" name="vendor_aoscp" remote="aoscp" revision="oreo-dr3"/>
   <!--<project path="vendor/codeaurora/telephony" name="platform/vendor/codeaurora/telephony" remote="caf" />-->
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="aoscp" />
   <project path="vendor/qcom-opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="aoscp" />
