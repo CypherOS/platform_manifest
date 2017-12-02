@@ -127,7 +127,8 @@
   <project path="packages/apps/Recorder" name="packages_apps_Recorder" groups="pdk-fs" remote="aoscp" revision="oreo-release" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" groups="pdk-fs" remote="aoscp" revision="oreo-release" />
-  <project path="packages/apps/WallpaperPicker" name="packages_apps_WallpaperPicker" remote="aoscp" revision="oreo-release" />
+  <!-- Disabled for prebuilt extension -
+  <project path="packages/apps/WallpaperPicker" name="packages_apps_WallpaperPicker" remote="aoscp" revision="oreo-release" />-->
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="aoscp" revision="oreo-release" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="aoscp" revision="oreo-release" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
