@@ -2,6 +2,7 @@
 <manifest>
 
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="aoscp" />
+  <project path="hardware/interfaces-aoscp" name="hardware_interfaces-aoscp" groups="pdk" remote="aoscp" />
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="aoscp" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="aoscp" />
   
