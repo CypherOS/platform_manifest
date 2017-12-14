@@ -5,6 +5,9 @@
            fetch="https://github.com/CypherOS"
            review="gerrit.cypheros.co"
            revision="refs/heads/oreo-mr1-release" />
+		  
+  <remote  name="github"
+           fetch="https://github.com/" />
 		   
   <!-- Removed projects -->	   
   <include name="remove.xml" />
