@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="aoscp"
-           fetch="https://github.com/CypherOS"
-           review="gerrit.cypheros.co"
-           revision="refs/heads/oreo-mr1-release" />
+  <remote name="aoscp"
+          fetch="https://github.com/CypherOS/"
+          review="https://gerrit.cypheros.co/"
+          revision="refs/heads/oreo-mr1-release" />
 		  
-  <remote  name="github"
-           fetch="https://github.com/" />
+  <remote name="github"
+          fetch="https://github.com/" />
 		   
   <!-- Removed projects -->	   
   <include name="remove.xml" />
