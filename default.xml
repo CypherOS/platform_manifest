@@ -4,8 +4,8 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/"
-		   revision="oreo-mr1-release" />
-		   
+           revision="refs/tags/android-8.1.0_r1" />
+ 
   <default remote="aosp"
            sync-c="true"
            sync-j="4" />
