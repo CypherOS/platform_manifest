@@ -5,6 +5,7 @@
   <project path="vendor/aoscp-overlay" name="vendor_aoscp-overlay" remote="aoscp" />
   <project path="vendor/aoscp-sepolicy" name="vendor_aoscp-sepolicy" remote="aoscp" />
   <project path="vendor/aoscp-themes" name="vendor_aoscp-themes" remote="aoscp" />
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="aoscp" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="aoscp" />
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="aoscp" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="aoscp" />
