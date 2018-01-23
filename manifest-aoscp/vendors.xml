@@ -2,6 +2,7 @@
 <manifest>
 
   <project path="vendor/aoscp" name="vendor_aoscp" remote="aoscp" />
+  <project path="vendor/aoscp-build" name="vendor_aoscp-build" remote="aoscp" />
   <project path="vendor/aoscp-overlay" name="vendor_aoscp-overlay" remote="aoscp" />
   <project path="vendor/aoscp-sepolicy" name="vendor_aoscp-sepolicy" remote="aoscp" />
   <project path="vendor/aoscp-themes" name="vendor_aoscp-themes" remote="aoscp" />
