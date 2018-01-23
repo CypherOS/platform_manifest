@@ -20,7 +20,6 @@
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" groups="pdk" remote="aoscp" />
   <project path="external/mksh" name="external_mksh" groups="pdk" remote="aoscp" />
   <project path="external/nano" name="external_nano" remote="aoscp" />
-  <project path="external/openssh" name="external_openssh" remote="aoscp" />
   <project path="external/powertop" name="external_powertop" remote="aoscp" />
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="aoscp" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="aoscp" />
