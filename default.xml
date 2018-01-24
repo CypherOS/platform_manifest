@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com"
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/"
            revision="refs/tags/android-8.1.0_r7" />
  
@@ -620,9 +620,9 @@
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
 
-  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
-  
   <!-- Manifest for AOSCP -->
   <include name="default-aoscp.xml" />
+
+  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
 </manifest>
