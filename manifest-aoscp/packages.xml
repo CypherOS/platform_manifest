@@ -22,6 +22,7 @@
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" groups="pdk-fs" remote="aoscp" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="aoscp" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="aoscp" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   
