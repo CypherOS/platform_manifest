@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="aoscp"
+          fetch="https://github.com/CypherOS/"
+          review="https://gerrit.cypheros.co/"
+          revision="refs/heads/parfait-release" />
+		  
+  <remote name="github"
+          fetch="https://github.com/" />
+		   
+  <!-- Removed projects -->	   
+  <include name="remove.xml" />
+  
+  <!-- Imported projects -->
+  <include name="manifest-aoscp/build.xml" />
+  <include name="manifest-aoscp/external.xml" />
+  <include name="manifest-aoscp/frameworks.xml" />
+  <include name="manifest-aoscp/hals.xml" />
+  <include name="manifest-aoscp/packages.xml" />
+  <include name="manifest-aoscp/system.xml" />
+  <include name="manifest-aoscp/vendors.xml" />
+
+</manifest>
