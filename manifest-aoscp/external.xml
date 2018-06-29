@@ -10,6 +10,7 @@
   <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="aoscp" />
   <project path="external/ebtables" name="external_ebtables" remote="aoscp" />
   <project path="external/elfutils" name="external_elfutils" groups="pdk" remote="aoscp" />
+  <project path="external/exfat" name="external_exfat" remote="aoscp" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" groups="pdk" remote="aoscp" />
   <project path="external/fuse" name="external_fuse" remote="aoscp" />
   <project path="external/gptfdisk" name="external_gptfdisk" groups="pdk-fs" remote="aoscp" />
