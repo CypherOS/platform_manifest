@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="aoscp" />
+
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="aoscp" />
   <project path="hardware/interfaces-aoscp" name="hardware_interfaces-aoscp" groups="pdk" remote="aoscp" />
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="aoscp" />
