@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="external/selinux" name="external_selinux" groups="pdk" remote="aoscp" />
+  
+</manifest>
