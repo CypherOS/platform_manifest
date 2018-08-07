@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="system/core" name="system_core" groups="pdk" remote="aoscp" />
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="aoscp" />
+  <project path="system/vold" name="system_vold" groups="pdk" remote="aoscp" />
+  
+</manifest>
