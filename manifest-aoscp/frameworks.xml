@@ -3,6 +3,7 @@
 
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="aoscp" />
   <project path="frameworks/base" name="frameworks_base" remote="aoscp" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" groups="pdk" remote="aoscp" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="aoscp" />
   
 </manifest>

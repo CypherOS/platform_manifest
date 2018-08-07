@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="prebuilts/build-tools" name="prebuilts_build-tools" groups="pdk" clone-depth="1" remote="aoscp" />
+  
+</manifest>

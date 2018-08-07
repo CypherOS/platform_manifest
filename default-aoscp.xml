@@ -11,10 +11,11 @@
 		   
   <!-- Removed projects -->	   
   <include name="remove.xml" />
-  
+
   <!-- Imported projects -->
   <include name="manifest-aoscp/build.xml" />
   <include name="manifest-aoscp/frameworks.xml" />
+  <include name="manifest-aoscp/prebuilts.xml" />
   <include name="manifest-aoscp/system.xml" />
   <include name="manifest-aoscp/vendors.xml" />
 
