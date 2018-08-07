@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!--<project path="vendor/aoscp" name="vendor_aoscp" remote="aoscp" />-->
+  <project path="vendor/aoscp" name="vendor_aoscp" remote="aoscp" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="aoscp" />
   
 </manifest>
