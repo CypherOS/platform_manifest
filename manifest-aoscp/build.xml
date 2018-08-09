@@ -12,6 +12,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   
+  <project path="art" name="art" groups="pdk" remote="aoscp" />
   <project path="bionic" name="bionic" groups="pdk" remote="aoscp" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="aoscp" />
   <project path="build/kati" name="build_kati" groups="pdk,tradefed" remote="aoscp" />
