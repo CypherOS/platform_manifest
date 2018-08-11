@@ -12,6 +12,9 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/compile/mclinker" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/hardware/qcom/bootctrl" />
+  <remove-project name="platform/hardware/qcom/bt" />
+  <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/prebuilts/build-tools" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
