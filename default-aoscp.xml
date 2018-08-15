@@ -17,6 +17,7 @@
   <include name="manifest-aoscp/external.xml" />
   <include name="manifest-aoscp/frameworks.xml" />
   <include name="manifest-aoscp/hals.xml" />
+  <include name="manifest-aoscp/packages.xml" />
   <include name="manifest-aoscp/prebuilts.xml" />
   <include name="manifest-aoscp/system.xml" />
   <include name="manifest-aoscp/vendors.xml" />

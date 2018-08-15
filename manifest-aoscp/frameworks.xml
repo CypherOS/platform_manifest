@@ -5,5 +5,6 @@
   <project path="frameworks/base" name="frameworks_base" remote="aoscp" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" groups="pdk" remote="aoscp" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="aoscp" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="aoscp" />
   
 </manifest>
