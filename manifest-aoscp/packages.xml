@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="aoscp" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="aoscp" />
+  <project path="packages/apps/Luna" name="packages_apps_Luna" groups="pdk-fs" remote="aoscp" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" groups="pdk-fs" remote="aoscp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="aoscp" />
-  
+
+  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
+
 </manifest>
