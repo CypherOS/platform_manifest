@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <project path="external/elfutils" name="external_elfutils" groups="pdk" remote="aoscp" />
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" groups="pdk" remote="aoscp" />
   <project path="external/perfetto" name="external_perfetto" groups="pdk" remote="aoscp" />
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="aoscp" />
