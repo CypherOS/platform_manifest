@@ -14,6 +14,7 @@
 
   <!-- Imported projects -->
   <include name="manifest-aoscp/build.xml" />
+  <include name="manifest-aoscp/devices.xml" />
   <include name="manifest-aoscp/external.xml" />
   <include name="manifest-aoscp/frameworks.xml" />
   <include name="manifest-aoscp/hals.xml" />

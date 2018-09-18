@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="aoscp" />
   <project path="external/apache-xml" name="external_apache-xml" groups="pdk" remote="aoscp" />
+  <project path="external/bash" name="external_bash" groups="pdk" remote="aoscp" />
   <project path="external/bouncycastle" name="external_bouncycastle" groups="pdk" remote="aoscp" />
   <project path="external/conscrypt" name="external_conscrypt" groups="pdk" remote="aoscp" />
   <project path="external/elfutils" name="external_elfutils" groups="pdk" remote="aoscp" />
+  <project path="external/exfat" name="external_exfat" groups="pdk" remote="aoscp" />
+  <project path="external/f2fs-tools" name="external_f2fs-tools" groups="pdk" remote="aoscp" />
+  <project path="external/htop" name="external_htop" groups="pdk" remote="aoscp" />
   <project path="external/json-c" name="external_json-c" groups="pdk" remote="aoscp" />
+  <project path="external/libncurses" name="external_libncurses" groups="pdk" remote="aoscp" />
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" groups="pdk" remote="aoscp" />
+  <project path="external/mksh" name="external_mksh" groups="pdk" remote="aoscp" />
+  <project path="external/nano" name="external_nano" groups="pdk" remote="aoscp" />
+  <project path="external/openssh" name="external_openssh" groups="pdk" remote="aoscp" />
+  <project path="external/p7zip" name="external_p7zip" groups="pdk" remote="aoscp" />
   <project path="external/perfetto" name="external_perfetto" groups="pdk" remote="aoscp" />
+  <project path="external/pigz" name="external_pigz" groups="pdk" remote="aoscp" />
+  <project path="external/rsync" name="external_rsync" groups="pdk" remote="aoscp" />
   <project path="external/selinux" name="external_selinux" groups="pdk" remote="aoscp" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="aoscp" />
+  <project path="external/unrar" name="external_unrar" groups="pdk" remote="aoscp" />
+  <project path="external/vim" name="external_vim" groups="pdk" remote="aoscp" />
+  <project path="external/zip" name="external_zip" groups="pdk" remote="aoscp" />
 
 </manifest>
