@@ -3,6 +3,12 @@
 
   <project path="vendor/aoscp" name="vendor_aoscp" remote="aoscp" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="aoscp" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="vendor_nxp_interfaces_opensource_nfc" remote="aoscp" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="aoscp" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="vendor_nxp_opensource_frameworks" remote="aoscp" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_packages_apps_Nfc" remote="aoscp" />
+  <project path="vendor/nxp/opensource/halimpl" name="vendor_nxp_opensource_halimpl" remote="aoscp" />
+  <project path="vendor/nxp/opensource/hidlimpl" name="vendor_nxp_opensource_hidlimpl" remote="aoscp" />
   <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="aoscp" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="aoscp" />
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="aoscp" >
