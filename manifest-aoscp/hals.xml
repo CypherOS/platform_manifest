@@ -3,6 +3,7 @@
 
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" groups="pdk" remote="aoscp" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="aoscp" />
+  <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="aoscp" />
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="aoscp" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="aoscp" />
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" groups="pdk" remote="aoscp" />
