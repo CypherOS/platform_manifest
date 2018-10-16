@@ -10,6 +10,7 @@
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" groups="pdk" remote="aoscp" />
 
   <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aoscp" />
+  <project path="hardware/qcom/audio-caf/apq8084" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="poundcake-release-8084" remote="aoscp" />
   <project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="poundcake-release-8916" remote="aoscp" />
   <project path="hardware/qcom/audio-caf/msm8952" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="poundcake-release-8952" remote="aoscp" />
   <project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="poundcake-release-8960" remote="aoscp" />
@@ -23,6 +24,7 @@
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="qcom_camera,pdk-qcom" remote="aoscp" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" remote="aoscp" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aoscp" />
+  <project path="hardware/qcom/display-caf/apq8084" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="poundcake-release-8084" remote="aoscp" />
   <project path="hardware/qcom/display-caf/msm8916" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="poundcake-release-8916" remote="aoscp" />
   <project path="hardware/qcom/display-caf/msm8952" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="poundcake-release-8952" remote="aoscp" />
   <project path="hardware/qcom/display-caf/msm8960" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="poundcake-release-8960" remote="aoscp" />
@@ -32,6 +34,7 @@
   <project path="hardware/qcom/display-caf/msm8998" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="poundcake-release-8998" remote="aoscp" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" groups="qcom,qcom_gps,pdk-qcom" remote="aoscp" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="aoscp" />
+  <project path="hardware/qcom/media-caf/apq8084" name="hardware_qcom_media" groups="qcom,pdk-qcom" revision="poundcake-release-8084" remote="aoscp" />
   <project path="hardware/qcom/media-caf/msm8916" name="hardware_qcom_media" groups="qcom,pdk-qcom" revision="poundcake-release-8916" remote="aoscp" />
   <project path="hardware/qcom/media-caf/msm8952" name="hardware_qcom_media" groups="qcom,pdk-qcom" revision="poundcake-release-8952" remote="aoscp" />
   <project path="hardware/qcom/media-caf/msm8960" name="hardware_qcom_media" groups="qcom,pdk-qcom" revision="poundcake-release-8960" remote="aoscp" />
