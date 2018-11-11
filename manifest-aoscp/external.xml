@@ -2,6 +2,8 @@
 <manifest>
 
   <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="aoscp" />
+  <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="aoscp" />
+  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="aoscp" />
   <project path="external/apache-xml" name="external_apache-xml" groups="pdk" remote="aoscp" />
   <project path="external/bash" name="external_bash" groups="pdk" remote="aoscp" />
   <project path="external/bouncycastle" name="external_bouncycastle" groups="pdk" remote="aoscp" />
