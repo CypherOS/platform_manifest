@@ -44,6 +44,7 @@
   <project path="hardware/qcom/media-caf/msm8996" name="hardware_qcom_media" groups="qcom,pdk-qcom" revision="poundcake-release-8996" remote="aoscp" />
   <project path="hardware/qcom/media-caf/msm8998" name="hardware_qcom_media" groups="qcom,pdk-qcom" revision="poundcake-release-8998" remote="aoscp" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" groups="qcom,pdk" remote="aoscp" />
+  <project path="hardware/qcom/thermal" name="hardware_qcom_thermal" groups="qcom,pdk" remote="aoscp" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="aoscp" />
   <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="poundcake-release-caf" remote="aoscp" />
 
