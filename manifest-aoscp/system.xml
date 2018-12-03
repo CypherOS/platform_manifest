@@ -4,6 +4,7 @@
   <project path="system/bt" name="system_bt" groups="pdk" remote="aoscp" />
   <project path="system/core" name="system_core" groups="pdk" remote="aoscp" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="aoscp" />
+  <project path="system/qcom" name="system_qcom" groups="pdk" remote="aoscp" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="aoscp" />
   <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="aoscp" />
   <project path="system/tools/hidl" name="system_tools_hidl" groups="pdk" remote="aoscp" />
