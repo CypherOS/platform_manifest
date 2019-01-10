@@ -12,6 +12,7 @@
   <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="aoscp" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="aoscp" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="aoscp" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aoscp" />
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="aoscp" >
     <copyfile src="os_pickup.bp" dest="vendor/qcom/opensource/Android.bp" />
   </project>
