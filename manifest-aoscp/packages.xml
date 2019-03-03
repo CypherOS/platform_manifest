@@ -24,6 +24,7 @@
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="packages/providers/WeatherProvider" name="packages_providers_WeatherProvider" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
 
+  <project path="packages/services/MiServices" name="packages_services_MiServices" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aoscp" />
 
