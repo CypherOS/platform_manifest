@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <project path="device/aoscp/sepolicy" name="device_aoscp_sepolicy" remote="aoscp" />
   <project path="device/generic/goldfish" name="device_generic_goldfish" groups="pdk" remote="aoscp" />
 
   <!-- CodeAurora Additions -->
